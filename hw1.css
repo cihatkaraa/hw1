@@ -1,0 +1,70 @@
+body {
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+}
+
+/* The body should have padding and margin*/
+
+header{
+	background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+	background-color: white;
+	padding: 10px 0px 10px 10px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 170px;
+}
+
+/* The header should have a background color, background image (using a local image), and padding */
+
+h1{
+	color: rgb(245, 243, 243);
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+h2{
+	text-transform: uppercase;
+	color: 	black;
+}
+
+nav a {
+	background: white;
+	color: black;
+	display: inline block;
+	margin: 100px;
+	border-radius: 10px;
+	text-decoration: white;
+	padding: 20px;
+}
+
+/* The navigation links (and only the links in the navigation) 
+should be styled with a new display, margin, border-radius, text-decoration, and padding */
+
+.active {
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* The link to the current page should be styled differently from the other links (using class = "active') */
+
+aside img {
+	display: inline;
+	width: 100px;
+	border: 3px solid black;
+	background: green;
+  }
+
+ /* The images should be part of the page now. In addition, they should have a border, be centered horizontally, 
+ and have vertical (top/bottom) space between them and the other images. */
+
+/* The sections should be next to each other, not one on top of the other. */
+
+p{
+	font-family: "Times New Roman", Times, serif;
+	text-align: right;
+}
+
+
